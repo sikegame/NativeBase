@@ -29,7 +29,7 @@ export const InputGroup = memo(
       return null;
     }
     return (
-      <Flex direction="row" {...layoutProps} ref={ref}>
+      <Flex flexDirection="row" {...layoutProps} ref={ref}>
         {supplyPropsToChildren(getAttachedChildren(children), remProps)}
       </Flex>
     );
