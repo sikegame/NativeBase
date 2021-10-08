@@ -96,6 +96,7 @@ const InputAdvance = (
       alignItems="center"
       justifyContent="space-between"
       overflow="hidden"
+      rounded="xl"
       {...layoutProps}
       ref={mergeRefs([_ref, wrapperRef])}
     >
